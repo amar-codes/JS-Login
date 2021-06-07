@@ -1,0 +1,138 @@
+body {
+    background-color: #e4e5e6;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 70px;
+}
+
+.bg-theme {
+    background-color: #5692ff;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.loginform {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 2;
+    align-items: stretch;
+}
+
+.card-group {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.card {
+    border-radius: 0px;
+    padding: 30px 30px;
+}
+
+.input-group-text {
+    background-color: #5692ff;
+    border-radius: 0rem;
+}
+
+.form-control {
+    border-radius: 0rem;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-submit {
+    color: #fff;
+    background-color: #5692ff;
+    border-radius: 0rem;
+}
+
+.btn-submit:hover {
+    color: white;
+    cursor: default;
+    box-shadow: 0 0 0 2px rgb(255 255 255 / 50%);
+}
+
+#highlightoff1 {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: red;
+}
+
+#checkcircle1 {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: green;
+}
+
+#highlightoff2 {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: red;
+}
+
+#checkcircle2 {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: green;
+}
+
+#footer-text {
+    text-align: center;
+}
+
+#form-info-username,
+#form-info-password {
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: red;
+}
+
+form {
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card-right-logo {
+        display: none;
+    }
+    .col-md-3 {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-group {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .col-md-3 {
+        max-width: 95%;
+    }
+}

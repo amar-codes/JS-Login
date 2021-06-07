@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="loginform myformcs">
+        <center><img src="images/logo-512x256.png" width="300" alt="" class="img-fluid mx-auto logo"></center><br>
+        <p id="form-info-username" style="display: none; text-align: center;"></p>
+        <p id="form-info-password" style="display: none; text-align: center;"></p>
+        <p id="form-info-success" style="display: none; text-align: center;"></p>
+        <form action="">
+            <div class="card-group justify-content-center" style="margin: 0 auto; width: 100%">
+                <div class="card col-md-3 bg-white">
+                    <h3 style="font-weight: 300;
+                    margin-bottom: 20px;">Admin Panel</h3>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-user" style="color: white;"></i></span>
+                        </div>
+                        <input type="text" class="form-control" id="username" placeholder="Username">
+                        <span class="material-icons" id="checkcircle1" style="display: none;">check_circle</span>
+                        <span class="material-icons" id="highlightoff1" style="display: none;">highlight_off</span>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock" style="color: white;"></i></span>
+                        </div>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                        <span class="material-icons" id="checkcircle2" style="display: none;">check_circle</span>
+                        <span class="material-icons" id="highlightoff2" style="display: none;">highlight_off</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input class="btn btn-submit" type="button" id="submit" value="Log in">
+                        </div>
+                        <div class="col-md-6">
+                            <p>Forgotten Password?</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card col-md-3 bg-theme card-right-logo">
+                    <img src="images/icon2.png" alt="" width="30%" class="img-fluid" style="padding: 40px 0px 0px 0px; margin: 0 auto;">
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <p id="footer-text">© 2021 Amar Garcevic. All Rights Reserved.</p>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
